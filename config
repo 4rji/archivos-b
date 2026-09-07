@@ -237,3 +237,28 @@ Host gitlab
 	User metro
 	Port 22
 	ProxyJump metro-esxi
+
+Host lab-ubuntu
+	Hostname 10.0.84.21
+	User digi
+	Port 22
+
+Host lighthouse
+	Hostname 10.0.84.19
+	User root
+	Port 22
+
+Host digi_rasp
+	Hostname 10.0.84.17
+	User digi
+	Port 22
+
+Host lab-digi-wg
+	Hostname 192.168.3.36
+	User digi
+	Port 22
+
+Host hermes
+	Hostname 192.168.44.116
+	User nala
+	Port 22
