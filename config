@@ -262,3 +262,14 @@ Host hermes
 	Hostname 192.168.44.67
 	User nala
 	Port 22
+
+Host claude
+	Hostname 10.100.1.200
+	User metro
+        ProxyJump metro-esxi
+	Port 22
+
+Host digi
+	Hostname 172.16.13.129
+	User digi
+	Port 22
